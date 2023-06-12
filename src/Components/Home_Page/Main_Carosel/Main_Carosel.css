@@ -1,0 +1,59 @@
+/* .main-slide{
+padding-top: 20px;
+} */
+
+.carousel .slider-wrapper{
+    width: 100%;
+    /* display: inline; */
+}
+
+.carousel .thumb{
+    width: 5%;
+    height: 50px;
+    /* display: none!important; */
+}
+.carousel {
+  text-align: center;
+  /* display: inline; */
+}
+
+.thumbs-wrapper{
+    display: none !important;
+}
+
+
+.carousel.carousel-slider .control-arrow {
+    background-color: #f024ec !important;
+}
+
+.carousel .slide .legend {
+    font-size: 1.4em !important;
+    /* color: greenyellow !important; */
+    font-weight: bold;
+
+    /* text-transform: uppercase; */
+    background-image: linear-gradient(
+      -225deg,
+      #b6f121 0%,
+      #ffffff 29%,
+      #ff1361 67%,
+      #fff800 100%
+    ) !important;
+    background-size: auto auto !important;
+    background-clip: border-box !important;
+    background-size: 200% auto !important;
+    color: #fff !important;
+    background-clip: text !important;
+    text-fill-color: transparent !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: textclip 2s linear infinite !important;
+    font-size: 1.8em !important;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel .slide .legend {
+        font-size: .8em !important;
+    }
+  }
