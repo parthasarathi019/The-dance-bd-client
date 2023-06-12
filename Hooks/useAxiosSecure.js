@@ -6,7 +6,7 @@ import { AuthContext } from '../src/Providers/AuthProviders';
 
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const axiosSecure = axios.create({
-  baseURL: 'http://localhost:7000', // for payment system || code needs to upgrade..... 
+  baseURL: 'https://summer-camp-server-zeta.vercel.app', // for payment system || code needs to upgrade..... 
 });
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 const useAxiosSecure = () => {

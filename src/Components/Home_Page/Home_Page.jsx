@@ -15,7 +15,7 @@ const Home_Page = () => {
       };
     return (
         <div className={`md:max-w-[1280px] mx-auto ${LightShown ? 'bg-black text-white' : 'bg-white'}`}>
-            <p className={`text-red-500 fixed right-8 text-right top-5  z-10 font-bold`}>{LightShown ? <TbSunOff onClick={toggleMode} className='text-red-600 text-[1.9em] cursor-pointer' /> : <TbSunHigh onClick={toggleMode} className='text-black  text-[1.9em] cursor-pointer'/>}</p>
+            <p className={`text-red-500 fixed right-0 text-right top-0  z-10 font-bold`}>{LightShown ? <TbSunOff onClick={toggleMode} className='text-lime-400 text-[1.9em] cursor-pointer' /> : <TbSunHigh onClick={toggleMode} className='text-yellow-300  text-[1.9em] cursor-pointer'/>}</p>
             <Main_Carosel></Main_Carosel>
             <Dance_Class_Section></Dance_Class_Section>
             <Popular_Instractor_Section></Popular_Instractor_Section>

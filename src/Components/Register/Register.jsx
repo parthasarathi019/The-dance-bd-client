@@ -97,7 +97,7 @@ const navigate = useNavigate()
 //-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
                        .then(() => {
                            const user_secret_info = {name , email , password , img_url}
-                            fetch("http://localhost:7000/user_data",
+                            fetch("https://summer-camp-server-zeta.vercel.app/user_data",
                             {
                                 method: "POST",//-----------------------------------
                                 headers: { //---------------------------------------

@@ -37,7 +37,7 @@ const Manage_Users = () => {
     })
 
     const Make_Admin = (user) => {
-        fetch(`http://localhost:7000/user_data/admin/${user._id}`, {
+        fetch(`https://summer-camp-server-zeta.vercel.app/user_data/admin/${user._id}`, {
             method: "PATCH",
             //   headers: {
             //     'content-type': 'application/json'
@@ -61,7 +61,7 @@ const Manage_Users = () => {
     }
 
     const Make_Instructor = (user) => {
-        fetch(`http://localhost:7000/user_data/instructor/${user._id}`, {
+        fetch(`https://summer-camp-server-zeta.vercel.app/user_data/instructor/${user._id}`, {
             method: "PATCH",
             //   headers: {
             //     'content-type': 'application/json'

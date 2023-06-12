@@ -39,7 +39,7 @@ const AuthProviders = ( {children}) => {
             console.log(current_user);
 //𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢||𝓙𝓦𝓣💚𝓐𝓧𝓘𝓞𝓢
 if (current_user) {
-    axios.post('http://localhost:7000/jwt' , {email: current_user.email})
+    axios.post('https://summer-camp-server-zeta.vercel.app/jwt' , {email: current_user.email})
     .then(data => {
         console.log(data.data.token)
         localStorage.setItem('dance-studio-access-token' , data.data.token)

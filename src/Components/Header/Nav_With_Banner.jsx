@@ -34,7 +34,7 @@ console.log(666)
                 <nav
                     //eslint-disable-next-line
                     x-data="{ isOpen: false }"
-                    className="text-black md:rounded-b-full fixed z-10 max-w-[1280px] left-[62px] mx-auto w-full bg-black bg-opacity-30 top-0 md:py-3 py-2"
+                    className="text-black md:rounded-b-full fixed z-10 max-w-[1280px] mx-auto w-full bg-black bg-opacity-30 top-0 md:py-3 py-2"
                 >
                     <div className="container px-6 py-1 mx-auto">
                         <div className="flex flex-col md:flex-row md:justify-between md:items-center">

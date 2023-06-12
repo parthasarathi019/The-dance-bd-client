@@ -103,18 +103,18 @@ const router = createBrowserRouter([
   {
     path: "/Feed_Back/:id",
     element: <Admin_Route><Feed_Back></Feed_Back></Admin_Route> ,
-    loader: ({params}) => fetch(`http://localhost:7000/Dance_Class/${params.id}`)
+    loader: ({params}) => fetch(`https://summer-camp-server-zeta.vercel.app/Dance_Class/${params.id}`)
 
   },
   {
     path: "/Update_Class/:id",
     element:<Instructor_Route> <Update_Class></Update_Class></Instructor_Route>,
-    loader : ({params}) => fetch(`http://localhost:7000/dance_class_for_Instructor/${params.id}`)
+    loader : ({params}) => fetch(`https://summer-camp-server-zeta.vercel.app/dance_class_for_Instructor/${params.id}`)
   },
   {
     path: "Payment/:id",
     element: <Payment></Payment>,
-    loader : ({params}) => fetch(`http://localhost:7000/payment_for_user/${params.id}`)
+    loader : ({params}) => fetch(`https://summer-camp-server-zeta.vercel.app/payment_for_user/${params.id}`)
   },
   {
     path: "*",

@@ -24,7 +24,7 @@ const My_Selected_Classes = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`http://localhost:7000/uesrs_own_cart/${_id}`, { method: "DELETE" },
+                fetch(`https://summer-camp-server-zeta.vercel.app/uesrs_own_cart/${_id}`, { method: "DELETE" },
 
                 )
                     .then(res => res.json())

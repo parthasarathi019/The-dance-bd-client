@@ -7,7 +7,7 @@ const Manage_Classes = () => {
 
     const [Boookings, seBoookings] = useState([])
     const navigate = useNavigate();
-    const url = (`http://localhost:7000/dance_class_for_Admin`)
+    const url = (`https://summer-camp-server-zeta.vercel.app/dance_class_for_Admin`)
     useEffect(() => {
         fetch(url,
             {
@@ -31,7 +31,7 @@ const Manage_Classes = () => {
     console.log(Boookings);
 
     const handle_Conform = (_id) => {
-        fetch(`http://localhost:7000/dance_class/${_id}`, {
+        fetch(`https://summer-camp-server-zeta.vercel.app/dance_class/${_id}`, {
             method: "PATCH",
             headers: {
                 'content-type': 'application/json'
@@ -52,7 +52,7 @@ const Manage_Classes = () => {
     }
 
     const handle_Deny = (_id) => {
-        fetch(`http://localhost:7000/dance_class/${_id}`, {
+        fetch(`https://summer-camp-server-zeta.vercel.app/dance_class/${_id}`, {
             method: "PATCH",
             headers: {
                 'content-type': 'application/json'

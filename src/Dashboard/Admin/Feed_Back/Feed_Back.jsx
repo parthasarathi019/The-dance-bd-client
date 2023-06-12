@@ -24,7 +24,7 @@ const Feed_Back = () => {
         }
         console.log(feedbacks);
 
-        fetch("http://localhost:7000/feedback",
+        fetch("https://summer-camp-server-zeta.vercel.app/feedback",
             {
                 method: "POST",//-----------------------------------
                 headers: { //---------------------------------------

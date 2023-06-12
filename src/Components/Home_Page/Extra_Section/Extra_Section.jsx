@@ -1,8 +1,8 @@
-import React from 'react';
+// import React from 'react';
 import img from '../../../assets/local_Img/Extra_Section_pic/extra_Section_Image.jpeg';
 import'./Extra_Section.css'
 //eslint-disable-next-line
-import { Fade, Slide } from "react-awesome-reveal";
+// import { Fade, Slide } from "react-awesome-reveal";
 import AOS from 'aos';
 AOS.init();
 
@@ -36,8 +36,8 @@ const Extra_Section = () => {
                 <p className='text-center md:text-[2.5em] font-semibold'>...New Event Lunched...</p>
             </div>
             <section className='flex flex-col md:flex-row justify-between items-center'>
-               <Slide> <p className=' text-[1.2em] text-center md:text-left md:text-[1.9em] font-bold tracking-[3px]'>𝒲ℯ 𝒜𝓁𝓈ℴ 𝒪𝒻𝒻ℯ𝓇 𝒲ℯ𝒹𝒹𝒾𝓃ℊ 𝒟𝒶𝓃𝒸ℯ 𝒮𝒽ℴ𝓇𝓉 𝒞𝓁𝒶𝓈𝓈ℯ𝓈...</p></Slide>
-               <div data-aos="zoom-out"> <img className='w-[500px] rounded-sm clip01' src={img} alt="" /></div>
+               <p className=' text-[1.2em] text-center md:text-left md:text-[1.9em] font-bold tracking-[3px]'>𝒲ℯ 𝒜𝓁𝓈ℴ 𝒪𝒻𝒻ℯ𝓇 𝒲ℯ𝒹𝒹𝒾𝓃ℊ 𝒟𝒶𝓃𝒸ℯ 𝒮𝒽ℴ𝓇𝓉 𝒞𝓁𝒶𝓈𝓈ℯ𝓈...</p>
+               <div data-aos="zoom-in"> <img className='w-[500px] rounded-sm clip01' src={img} alt="" /></div>
             </section>
         </div>
     );

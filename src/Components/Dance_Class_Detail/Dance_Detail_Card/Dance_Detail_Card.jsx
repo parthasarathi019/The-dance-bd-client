@@ -19,7 +19,7 @@ const Dance_Detail_Card = ({ classs }) => {
         const cart = {Class_ID:uesrs_cart._id, email:user?.email , user_name: user?.displayName , instructor_name: uesrs_cart.instructor , class_name:uesrs_cart.name, class_image: uesrs_cart.image , class_price: uesrs_cart.price , available_seats: uesrs_cart.available_seats }
 
         if (user && user.email) {
-            fetch("http://localhost:7000/uesrs_own_cart",
+            fetch("https://summer-camp-server-zeta.vercel.app/uesrs_own_cart",
             {
                 method: "POST",//---------------------------------------
                 headers: { //-------------------------------------------
