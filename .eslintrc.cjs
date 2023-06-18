@@ -21,5 +21,5 @@ module.exports = {
 //text Animation : https://alvarotrigo.com/blog/css-text-animations/
 //Button Animated : https://freefrontend.com/css-buttons/
 //npm install react-awesome-reveal @emotion/react --save
-//npm install @stripe/react-stripe-js @stripe/stripe-js
+// npm install @stripe/react-stripe-js @stripe/stripe-js
 //https://github.com/stripe/react-stripe-js
